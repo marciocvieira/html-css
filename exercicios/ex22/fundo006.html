@@ -7,19 +7,28 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* sohorthand no background (ORDEM)
+            color > image > position > repeat > [size] >attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
             border-radius: 15px;
+            
         }
     </style>
 </head>
@@ -28,6 +37,8 @@
         <h1>
             Teste de imagem de fundo
         </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iure eveniet, explicabo saepe eius voluptates, dolor sunt quasi voluptatem cumque illo omnis iusto est incidunt ea doloremque inventore nostrum tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusantium unde, voluptatem fugiat dicta aperiam ipsum nisi corporis animi mollitia ducimus? Veritatis eveniet minima, modi sed eaque facilis nostrum dolor. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad asperiores eius quis officia in eos reprehenderit eum atque itaque nisi iste maiores laboriosam qui numquam, quia ipsa doloremque dolorem error.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iure eveniet, explicabo saepe eius voluptates, dolor sunt quasi voluptatem cumque illo omnis iusto est incidunt ea doloremque inventore nostrum tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusantium unde, voluptatem fugiat dicta aperiam ipsum nisi corporis animi mollitia ducimus? Veritatis eveniet minima, modi sed eaque facilis nostrum dolor. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad asperiores eius quis officia in eos reprehenderit eum atque itaque nisi iste maiores laboriosam qui numquam, quia ipsa doloremque dolorem error.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iure eveniet, explicabo saepe eius voluptates, dolor sunt quasi voluptatem cumque illo omnis iusto est incidunt ea doloremque inventore nostrum tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusantium unde, voluptatem fugiat dicta aperiam ipsum nisi corporis animi mollitia ducimus? Veritatis eveniet minima, modi sed eaque facilis nostrum dolor. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad asperiores eius quis officia in eos reprehenderit eum atque itaque nisi iste maiores laboriosam qui numquam, quia ipsa doloremque dolorem error.</p>
     </main>
 </body>
